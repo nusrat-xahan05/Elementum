@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* import Gerbil Font */
+@font-face {
+  font-family: 'Gerbil';
+  src: url('./assets/fonts/gerbil.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* import Satoshi Font */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/satoshi/Satoshi-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/satoshi/Satoshi-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@theme {
+  /* Fonts */
+  --font-gerbil: "Gerbil", sans-serif;
+  --font-satoshi: "Satoshi", sans-serif;
+
+  /* Colors */
+  --color-primary: #0f0f0f;
+  --color-soft-green: #eaf7ef;
+  --color-accent-pink: #fbcfe8;
+  --color-accent-yellow: #fde68a;
+}
