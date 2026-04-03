@@ -1,10 +1,10 @@
+import Navbar from "./components/layout/Navbar"
+
 function App() {
   return (
-    <>
-      <div >
-        <h1 className="font-gerbil">Hello from elementor</h1>
-      </div>
-    </>
+    <div className="max-w-480 mx-auto">
+      <Navbar></Navbar>
+    </div>
   )
 }
 

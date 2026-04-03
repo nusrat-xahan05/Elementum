@@ -13,16 +13,6 @@
 @font-face {
   font-family: 'Satoshi';
   src: url('./assets/fonts/satoshi/Satoshi-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Satoshi';
-  src: url('./assets/fonts/satoshi/Satoshi-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
   font-display: swap;
 }
 
@@ -34,7 +24,9 @@
 
   /* Colors */
   --color-primary: #0f0f0f;
-  --color-soft-green: #eaf7ef;
-  --color-accent-pink: #fbcfe8;
-  --color-accent-yellow: #fde68a;
+  --color-primary-text: #000000;
+  --color-highlight: #FF7171;
+  --color-accent-green: #D7EEDD;
+  --color-accent-pink: #FFC2EA;
 }
+
