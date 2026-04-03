@@ -34,7 +34,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 40 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-                    className="max-w-6xl xl:max-w-7xl mx-auto font-gerbil font-normal text-4xl md:text-5xl lg:text-6xl 2xl:text-[90px] leading-tight md:leading-normal text-center">
+                    className="max-w-6xl xl:max-w-7xl mx-auto font-gerbil font-normal text-4xl md:text-5xl lg:text-6xl 2xl:text-[90px] leading-normal text-center">
                     The {" "}
                     <span className="relative">thinkers
                         <img className="absolute -bottom-2 left-0 w-full" src={zigzagLine} alt="zig-zag Line" />
