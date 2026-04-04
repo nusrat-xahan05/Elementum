@@ -2,6 +2,7 @@ import CareerProgress from "./components/layout/CareerProgress"
 import Footer from "./components/layout/Footer"
 import Hero from "./components/layout/Hero"
 import Navbar from "./components/layout/Navbar"
+import OfferPart from "./components/layout/OfferPart"
 import Subscription from "./components/layout/Subscription"
 import Testimonials from "./components/layout/Testimonials"
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <CareerProgress></CareerProgress>
+      <OfferPart></OfferPart>
       <Testimonials></Testimonials>
       <Subscription></Subscription>
       <Footer></Footer>

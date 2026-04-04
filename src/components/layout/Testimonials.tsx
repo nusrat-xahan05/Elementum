@@ -37,13 +37,14 @@ export default function Testimonials() {
     }, []);
 
     return (
-        <section className="relative w-full py-24 md:py-35 px-6 md:px-16 overflow-hidden flex flex-col items-center justify-center">
+        <section className="relative w-full py-24 md:py-35 px-6 md:px-16 mb-10 overflow-hidden flex flex-col items-center justify-center">
 
             {/* Header*/}
             <div className="text-center mb-14.5 z-20">
                 <motion.h3
                     initial={{ opacity: 0, y: 40 }}
-                    animate={{ opacity: 1, y: 0 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                     className="max-w-6xl xl:max-w-7xl mx-auto font-gerbil font-normal text-4xl md:text-5xl lg:text-[56px] leading-normal">
                     <span className="bg-accent-green p-1 rounded-full">What</span>

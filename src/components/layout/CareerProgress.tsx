@@ -9,7 +9,7 @@ import rectangle from '../../assets/images/rectangle.png'
 
 export default function CareerProgress() {
     return (
-        <section className="relative py-20 px-6 md:px-16 overflow-hidden">
+        <section className="relative py-24 px-6 md:px-16 overflow-hidden">
             {/* Background Decorative Line */}
             <img
                 src={bgLine}
@@ -17,7 +17,7 @@ export default function CareerProgress() {
                 alt="Background zig zag line" />
 
             {/* Middle Blur Shadow */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-highlight/40 blur-3xl z-10 rounded-full" />
+            <div className="absolute top-16 left-1/2 -translate-x-1/2 w-64 h-64 bg-highlight/40 blur-3xl z-10 rounded-full" />
 
             <div className="space-y-32 lg:space-y-40 relative z-10">
                 {/* First Section - Tomorrow */}

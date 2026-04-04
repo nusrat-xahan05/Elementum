@@ -7,7 +7,7 @@ import SubscribeButton from "../ui/SubscribeButton";
 
 export default function Subscription() {
     return (
-        <section className="relative bg-accent-green mx-auto pt-24 md:pt-35 pb-24">
+        <section className="relative bg-accent-green mx-auto py-24 md:pt-35">
             <div className="hidden sm:block">
                 <img className="w-48 absolute top-0 left-[36%]" src={arrowLine1} alt="Virtical Line1" />
                 <img className="w-48 absolute top-0 left-[41%]" src={arrowLine2} alt="Virtical Line1" />
@@ -20,11 +20,12 @@ export default function Subscription() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     className="px-6 md:px-16">
-                        
+
                     {/* Heading */}
                     <motion.h1
                         initial={{ opacity: 0, y: 40 }}
-                        animate={{ opacity: 1, y: 0 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, margin: "-100px" }}
                         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                         className="max-w-6xl xl:max-w-7xl mx-auto font-gerbil font-normal text-4xl md:text-5xl lg:text-6xl 2xl:text-[90px] leading-tight md:leading-normal text-center">
                         Subscribe to <br />our newsletter

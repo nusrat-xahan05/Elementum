@@ -25,7 +25,7 @@ const avatarData = [
 
 export default function Hero() {
     return (
-        <section className="relative mx-auto pt-24 md:pt-40 pb-20 overflow-hidden mb-28">
+        <section className="relative mx-auto py-24 md:pt-40 overflow-hidden">
 
             {/* main content */}
             <div className="px-6 md:px-16">
