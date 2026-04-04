@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import arrow from "../../assets/images/arrow.png";
 import zigzagLine from "../../assets/images/zig-zag line.png";
-import bgLine from "../../assets/images/bg-zigZag.png";
+import bgLine from "../../assets/images/bg-zigZag2.png";
 
 const offers = [
     {
@@ -39,12 +39,12 @@ const containerVariants = {
 
 const itemVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: { 
-        opacity: 1, 
+    visible: {
+        opacity: 1,
         y: 0,
-        transition: { 
-            duration: 0.8, 
-            ease: [0.16, 1, 0.3, 1] 
+        transition: {
+            duration: 0.8,
+            ease: [0.16, 1, 0.3, 1]
         }
     },
 } as const;
@@ -56,7 +56,7 @@ export default function OfferPart() {
             {/* Background Decorative Line */}
             <img
                 src={bgLine}
-                className="absolute -top-1/2 left-2/5 translate-y-[40%] w-full h-auto opacity-30 pointer-events-none z-0 object-cover"
+                className="absolute -top-1/4 right-0 w-[60%] opacity-30 pointer-events-none z-0 object-cover"
                 alt="Background zig zag line" />
 
             {/* Section Header */}
