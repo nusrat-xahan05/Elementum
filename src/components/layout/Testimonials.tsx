@@ -37,7 +37,7 @@ export default function Testimonials() {
     }, []);
 
     return (
-        <section className="relative w-full py-24 md:py-35 px-6 overflow-hidden flex flex-col items-center justify-center">
+        <section className="relative w-full py-24 md:py-35 px-6 md:px-16 overflow-hidden flex flex-col items-center justify-center">
 
             {/* Header*/}
             <div className="text-center mb-14.5 z-20">

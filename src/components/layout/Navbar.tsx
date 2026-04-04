@@ -15,7 +15,7 @@ export default function Navbar() {
             transition={{ duration: 0.9, ease: "easeOut" }}
             className="absolute w-full z-50 bg-transparent pt-4"
         >
-            <div className="px-6 xl:px-40 mx-auto flex items-center justify-between">
+            <div className="px-6 md:px-16 mx-auto flex items-center justify-between">
                 {/* Logo */}
                 <div className="my-5">
                     <a href="/"

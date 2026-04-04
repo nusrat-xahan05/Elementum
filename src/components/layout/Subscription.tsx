@@ -15,7 +15,12 @@ export default function Subscription() {
 
             {/* Subscription part */}
             <div className="relative">
-                <div className="px-6 md:px-16">
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="px-6 md:px-16">
+                        
                     {/* Heading */}
                     <motion.h1
                         initial={{ opacity: 0, y: 40 }}
@@ -35,7 +40,7 @@ export default function Subscription() {
                     </motion.p>
 
                     <SubscribeButton></SubscribeButton>
-                </div>
+                </motion.div>
 
                 {/* Decorative Lines & Shapes */}
                 <div className="hidden sm:block absolute top-[32%] right-[1%] lg:right-[3%] scale-75 md:scale-100">
