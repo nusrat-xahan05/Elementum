@@ -66,7 +66,7 @@ export default function Navbar() {
 
             {/* Mobile Menu */}
             {open && (
-                <div className="lg:hidden flex flex-col gap-6 px-8 py-6">
+                <div className="lg:hidden flex flex-col gap-6 px-8 py-6 bg-white">
                     {links.map((link, i) => (
                         <motion.a
                             key={link}
